@@ -5,3 +5,10 @@
     border: none;
     padding: 0;
 }
+
+/* list reordering */
+
+ul{
+    display:flex;
+    flex-direction: column-reverse;
+}
