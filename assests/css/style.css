@@ -27,9 +27,22 @@
     line-height: 5rem;
     margin-right: 6rem;
     margin: 20px;
-    font-size: 220%
+    font-size: 220%;
+    font-weight: 700;
 }
 
 #menu a {
     text-decoration: none;
+    color:inherit;
 }
+
+#menu a:hover {
+    border-bottom: 0.1rem solid #396e9e;
+
+}
+
+.active {
+    border-bottom: 0.1rem solid #396e9e;
+}
+
+/* body / background image */
