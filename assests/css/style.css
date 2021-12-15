@@ -8,8 +8,8 @@
 
 /* list reordering */
 
-.flexbox{
+.flexbox {
     display: flex;
+    align-items: flex-end;
     flex-direction: column-reverse;
-    justify-content: left;
 }
