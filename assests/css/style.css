@@ -37,16 +37,19 @@
 }
 
 #menu a:hover {
-    border-bottom: 0.1rem solid #396e9e;
+    border-bottom: 0.1rem solid #1f56a7;
 
 }
 
 .active {
-    border-bottom: 0.1rem solid #396e9e;
+    border-bottom: 0.1rem solid #1f56a7;
 }
 
 /* body / background image */
 
 body {
     background-color: ivory;
+    background-image: url(../images/istockphoto-949108436-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
