@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -12,8 +12,6 @@
     display: flex;
     align-items: flex-end;
     flex-direction: row-reverse;
-    margin-right: 25px;
-    margin: 10px;
 }
 
 /* menu styling */
@@ -22,8 +20,14 @@
     text-transform: capitalize;
     list-style-type: none;
     color:#396e9e;
-    font-size: 110%;
+}
 
+#menu li {
+    font-family: corinthia, sans-serif;
+    line-height: 5rem;
+    margin-right: 6rem;
+    margin: 20px;
+    font-size: 220%
 }
 
 #menu a {
