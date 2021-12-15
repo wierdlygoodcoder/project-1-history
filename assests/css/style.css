@@ -11,5 +11,21 @@
 .flexbox {
     display: flex;
     align-items: flex-end;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    margin-right: 25px;
+    margin: 10px;
+}
+
+/* menu styling */
+
+#menu {
+    text-transform: capitalize;
+    list-style-type: none;
+    color:#396e9e;
+    font-size: 110%;
+
+}
+
+#menu a {
+    text-decoration: none;
 }
